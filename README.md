@@ -180,3 +180,25 @@ To make the VBA macro more efficent I had to swtich from using a nested for loop
     Next i
     
 ### Run-Time difference Original versus Refactored
+
+The Run-Time using the original code
+
+![2017 Original](https://github.com/Nuh-Khan/stock-analysis/blob/567e25a80122d64e17cde00df7e3e5577a1e22ca/Resources/VBA_Challenge_2017_original.png)
+![2018 Original](https://github.com/Nuh-Khan/stock-analysis/blob/567e25a80122d64e17cde00df7e3e5577a1e22ca/Resources/VBA_Challenge_2018_original.png)
+
+The Run-Time using the refactored code
+
+![2017 Refactored](https://github.com/Nuh-Khan/stock-analysis/blob/567e25a80122d64e17cde00df7e3e5577a1e22ca/Resources/VBA_Challenge_2017.png)
+![2018 Refactored](https://github.com/Nuh-Khan/stock-analysis/blob/567e25a80122d64e17cde00df7e3e5577a1e22ca/Resources/VBA_Challenge_2018.png)
+
+
+## Summary
+
+### Thoughts on Refactoring Code Generally
+When you refactor code the general purpose is to make it more efficent. Additionally it can also allow the code to be read more easily and potentially make the code apply to additional data sets. However, refactoring can take a lot of time and may not always make the code more efficent.
+
+### The effects of refactoring this code
+
+By refactoring this code the VBA macro was able to run much faster. For 2018 our code went from running in 1.0 seconds to .078 seconds, a dramatic decrease in run-time. For 2017 our code went from running in .589 seconds to .093 seconds, again a dramatic decrease. Not only did our new macro become more efficent it also allows for use on additional data sets with simple changes. The only negative with our refactoring was the time it took to actually refactor the code, if there was a time crunch on our project it may not be viable to spend extra time refactoring our code. Both macros work and acomplish the same task. 
+
+
